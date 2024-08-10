@@ -109,7 +109,6 @@ public class OrderServiceImpl implements OrderService {
             order.getProcessCounters().add(newProcessCounter);
             return newProcessCounter;
         }
-
         return processCounter.get();
     }
 
